@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_start"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        />
+    <Button
+
+        android:id="@+id/button_bat_dau"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="43dp"
+        android:background="@drawable/atp__dialog_confirm_background_button_active"
+        android:text="Bắt đầu"
+        />
+    <Button
+        android:id="@+id/button_xep_hang"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="190dp"
+        android:layout_height="43dp"
+        android:background="@drawable/atp__dialog_confirm_background_button_active"
+        android:text="Xếp hạng"
+        />
+</LinearLayout>
